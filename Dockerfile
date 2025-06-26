@@ -4,7 +4,7 @@ WORKDIR /src
 
 # Copy solution and project files
 COPY BlogShare.Web.sln .
-COPY BlogShare.Web/*.csproj ./BlogShare.Web/
+COPY BlogShare.Web.csproj ./BlogShare.Web/
 
 # Restore dependencies
 RUN dotnet restore

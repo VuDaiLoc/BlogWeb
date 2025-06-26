@@ -1,0 +1,21 @@
+﻿@using BlogShare.Web.Models
+@model List<BlogShare.Web.Models.FriendRequest>
+
+<h2>Lời mời kết bạn</h2>
+
+@foreach (var request in Model)
+{
+    <div class="border p-2 my-2">
+        👤 @request.SenderId gửi lời mời lúc @request.SentAt.ToShortTimeString()
+
+        <form method="post" asp-action="AcceptRequest" class="d-inline">
+            <input type="hidden" name="requestId" value="@request.Id" />
+            <button class="btn btn-success btn-sm">Chấp nhận</button>
+        </form>
+
+        <form method="post" asp-action="RejectRequest" class="d-inline">
+            <input type="hidden" name="requestId" value="@request.Id" />
+            <button class="btn btn-danger btn-sm">Từ chối</button>
+        </form>
+    </div>
+}

@@ -1,0 +1,66 @@
+﻿@model List<BlogShare.Web.Models.Post>
+@{
+    ViewData["Title"] = "Bài viết chờ duyệt";
+}
+<h2>Bài viết chờ duyệt</h2>
+
+@if (TempData["StatusMessage"] != null)
+{
+    <div class="alert alert-info">@TempData["StatusMessage"]</div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Tác giả</th>
+            <th>Chuyên mục</th>
+            <th>Ngày tạo</th>
+            <th>Ảnh</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>@post.Title</td>
+                <td>@post.Author?.FullName</td>
+                <td>@post.Category?.Name</td>
+                <td>@post.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(post.ImagePath))
+                    {
+                        <img src="@post.ImagePath" style="max-height: 60px;" />
+                    }
+                </td>
+                <td>
+                    <form asp-action="Approve" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@post.Id" />
+                        <button class="btn btn-success btn-sm">Duyệt</button>
+                    </form>
+                    <button class="btn btn-danger btn-sm" onclick="showRejectForm(@post.Id)">Từ chối</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Form từ chối -->
+<form id="rejectForm" asp-action="Reject" method="post" style="display:none;">
+    <input type="hidden" name="id" id="rejectId" />
+    <div class="form-group">
+        <label>Lý do từ chối</label>
+        <input type="text" name="reason" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-danger mt-2">Xác nhận từ chối</button>
+</form>
+
+@section Scripts {
+    <script>
+        function showRejectForm(id) {
+            document.getElementById("rejectId").value = id;
+            document.getElementById("rejectForm").style.display = "block";
+        }
+    </script>
+}

@@ -1,0 +1,201 @@
+﻿<head>
+    <link rel="stylesheet" href="~/css/Account/Profile.css" />
+</head>
+
+@model BlogShare.Web.Models.User
+@{
+    ViewData["Title"] = "Hồ sơ cá nhân";
+    var user = ViewBag.User as BlogShare.Web.Models.User;
+
+    @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+    if (user == null)
+    {
+        <div class="alert alert-danger">Không tìm thấy thông tin người dùng.</div>
+        return;
+    }
+
+    int currentUserId = (int)(Context.Session.GetInt32("UserId") ?? 0);
+    bool isFriend = ViewBag.IsFriend ?? false;
+    bool alreadySentRequest = (bool?)(ViewBag.AlreadySentRequest) ?? false;
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow-sm rounded-4">
+                <div class="card-body text-center">
+                    <!-- Avatar Section -->
+                    <form id="avatarForm" asp-controller="Account" asp-action="UploadAvatar" method="post" enctype="multipart/form-data">
+                        <div class="position-relative mb-3">
+                            <img src="@(user.AvatarFileName ?? "/uploads/avatar/default.png")" alt="Avatar"
+                                 class="rounded-circle border border-3 border-primary" width="150" height="150"
+                                 id="avatarPreview" style="cursor: pointer; object-fit: cover;"
+                                 onclick="toggleAvatarPopup()" />
+
+
+                            @if (user.Id == currentUserId)
+                            {
+                                <div id="avatarPopup" class="d-none position-absolute start-50 translate-middle-x mt-2">
+                                    <div class="d-flex flex-column gap-2 bg-white p-2 rounded-3 shadow">
+                                        <button type="button" class="btn btn-sm btn-outline-primary" onclick="showAvatarModal()">
+                                            <i class="bi bi-eye-fill me-1"></i>Xem ảnh
+                                        </button>
+                                        <label class="btn btn-sm btn-outline-success mb-0">
+                                            <i class="bi bi-upload me-1"></i>Đổi ảnh
+                                            <input type="file" name="avatarFile" id="avatarInput" accept="image/*" hidden />
+                                        </label>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </form>
+
+                    <!-- User Info -->
+                    <h3 class="fw-bold mb-1">@Model.FullName</h3>
+                    <p class="text-muted mb-3"><i class="bi bi-envelope"></i> @Model.Email</p>
+
+                    <!-- Friend Actions -->
+                    @if (user.Id != currentUserId)
+                    {
+                        <div class="d-flex gap-2 justify-content-center mb-3">
+                            @if (isFriend)
+                            {
+                                <form asp-controller="Friend" asp-action="RemoveFriend" method="post">
+                                    <input type="hidden" name="userId" value="@user.Id" />
+                                    <button class="btn btn-danger btn-sm" type="submit">
+                                        <i class="bi bi-person-dash me-1"></i>Huỷ kết bạn
+                                    </button>
+                                </form>
+                            }
+                            else if (alreadySentRequest)
+                            {
+                                <span class="badge bg-secondary">
+                                    <i class="bi bi-check-circle me-1"></i>Đã gửi yêu cầu
+                                </span>
+                            }
+                            else
+                            {
+                                <form asp-controller="Friend" asp-action="AddFriend" method="post">
+                                    <input type="hidden" name="userId" value="@user.Id" />
+                                    <button class="btn btn-primary btn-sm" type="submit">
+                                        <i class="bi bi-person-plus me-1"></i>Kết bạn
+                                    </button>
+                                </form>
+                            }
+                            <button class="btn btn-primary btn-sm" onclick="startChat(@Model.Id, '@Model.FullName')">
+                                <i class="bi bi-chat-left-text me-1"></i>Nhắn tin
+                            </button>
+                        </div>
+                    }
+                    else
+                    {
+                        <a asp-controller="Account" asp-action="Settings" class="btn btn-outline-primary btn-sm">
+                            <i class="bi bi-gear me-1"></i>Cài đặt hồ sơ
+                        </a>
+                    }
+
+                    <!-- Stats -->
+                    <div class="d-flex justify-content-around mt-4 text-center">
+                        <div>
+                            <div class="fw-bold">@(ViewBag.PostCount ?? 0)</div>
+                            <small class="text-muted">Bài viết</small>
+                        </div>
+                        <div>
+                            <div class="fw-bold">@(ViewBag.FriendCount ?? 0)</div>
+                            <small class="text-muted">Bạn bè</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="card shadow-sm rounded-4">
+                <div class="card-body">
+                    <h4 class="fw-bold mb-4"><i class="bi bi-file-earmark-text me-2"></i>Bài viết đã đăng</h4>
+
+                    @if (ViewBag.UserPosts != null && ViewBag.UserPosts.Count > 0)
+                    {
+                        <div class="list-group">
+                            @foreach (var post in ViewBag.UserPosts)
+                            {
+                                <a href="/Home/Details/@post.Id" class="list-group-item list-group-item-action">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="mb-1">@post.Title</h5>
+                                        <small class="text-muted">@post.CreatedAt.ToString("dd/MM/yyyy HH:mm")</small>
+                                    </div>
+                                    <div class="d-flex gap-2">
+                                        <small><i class="bi bi-heart"></i> @post.Likes</small>
+                                        <small><i class="bi bi-chat"></i> @post.Comments</small>
+                                    </div>
+                                </a>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-4">
+                            <i class="bi bi-file-earmark-text display-5 text-muted mb-3"></i>
+                            <p class="text-muted">@(user.Id == currentUserId ? "Bạn chưa đăng bài nào" : "Người dùng chưa đăng bài nào")</p>
+                            @if (user.Id == currentUserId)
+                            {
+                                <a asp-controller="Post" asp-action="Create" class="btn btn-primary btn-sm">
+                                    <i class="bi bi-plus-circle me-1"></i>Viết bài mới
+                                </a>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Avatar Modal -->
+<div class="modal fade" id="avatarModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Ảnh đại diện</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center p-4">
+                <img src="@(user.AvatarFileName ?? "/uploads/avatar/default.png")" alt="Avatar lớn"
+                     class="img-fluid rounded-3" style="max-height: 70vh;" />
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function toggleAvatarPopup() {
+            const popup = document.getElementById('avatarPopup');
+            popup.classList.toggle('d-none');
+        }
+
+        function showAvatarModal() {
+            const modal = new bootstrap.Modal(document.getElementById('avatarModal'));
+            modal.show();
+            document.getElementById('avatarPopup').classList.add('d-none');
+        }
+
+        // Auto submit avatar form
+        document.getElementById('avatarInput')?.addEventListener('change', function() {
+            document.getElementById('avatarForm').submit();%
+        });
+
+        // Close popup when clicking outside
+        document.addEventListener('click', function(e) {
+            const popup = document.getElementById('avatarPopup');
+            const avatar = document.getElementById('avatarPreview');
+
+            if (popup && !popup.contains(e.target)) {
+                if (e.target !== avatar && !avatar.contains(e.target)) {
+                    popup.classList.add('d-none');
+                }
+            }
+        });
+    </script>
+}

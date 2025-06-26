@@ -1,0 +1,55 @@
+﻿@model BlogShare.Web.Models.Post
+@{
+    ViewData["Title"] = "Đăng bài mới";
+    var categories = ViewBag.Categories as List<BlogShare.Web.Models.Category>;
+}
+
+<h2>Đăng bài mới</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label>Tiêu đề</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Nội dung</label>
+        <textarea asp-for="Content" class="form-control" rows="8"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label>Ảnh minh họa</label>
+        <input type="file" name="imageFile" class="form-control" />
+        <img id="previewImage" src="#" alt="Ảnh minh họa" style="max-height: 200px; display: none; margin-top: 10px;" />
+    </div>
+
+    <div class="mb-3">
+        <label>Chuyên mục</label>
+        <select asp-for="CategoryId" class="form-select">
+            <option value="">-- Chọn chuyên mục --</option>
+            @if (categories != null)
+            {
+                @foreach (var cat in categories)
+                {
+                    <option value="@cat.Id">@cat.Name</option>
+                }
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Đăng bài</button>
+</form>
+<script>
+    document.querySelector('input[name="imageFile"]').addEventListener('change', function (e) {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (evt) {
+                const img = document.getElementById('previewImage');
+                img.src = evt.target.result;
+                img.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+</script>

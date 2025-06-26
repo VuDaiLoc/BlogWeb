@@ -1,0 +1,109 @@
+﻿<head>
+    <link rel="stylesheet" href="~/css/Home/Details.css" />
+</head>
+
+
+@model BlogShare.Web.Models.Post
+@{
+    ViewData["Title"] = "Chi tiết bài viết";
+    var avatarPath = string.IsNullOrEmpty(Model?.Author?.AvatarFileName)
+     ? "/images/default-avatar.png"
+     : $"/uploads/avatar/{Model.Author.AvatarFileName}";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm rounded-4">
+        <div class="card-body">
+            <!-- Author Info -->
+            <div class="d-flex align-items-center mb-4">
+                <img src="@avatarPath"
+                     class="rounded-circle border border-2 border-primary me-3"
+                     style="width:50px; height:50px; object-fit:cover;"
+                     alt="@Model.Author.FullName" />
+                <div>
+                    <a asp-controller="Account" asp-action="PublicProfile" asp-route-id="@Model.Author.Id"
+                       class="text-decoration-none fw-bold text-primary">
+                        @Model.Author.FullName
+                    </a>
+                    <div class="text-muted small">
+                        @Model.CreatedAt.ToString("dd/MM/yyyy HH:mm")
+                    </div>
+                </div>
+                <a href="javascript:history.back()" class="btn btn-sm btn-outline-secondary ms-auto">
+                    <i class="bi bi-arrow-left"></i> Quay lại
+                </a>
+            </div>
+
+            <!-- Post Content -->
+            <h2 class="fw-bold mb-3">@Model.Title</h2>
+
+            @if (!string.IsNullOrEmpty(Model.ImagePath))
+            {
+                <img src="@Model.ImagePath" class="img-fluid rounded-3 mb-4" style="max-height: 500px; width: 100%; object-fit: cover;" />
+            }
+
+            <div class="post-content mb-4">
+                @Html.Raw(Model.Content.Replace("\n", "<br>"))
+            </div>
+
+            <!-- Like Button -->
+            <form asp-action="Like" asp-controller="Home" method="post" class="mb-4">
+                <input type="hidden" name="postId" value="@Model.Id" />
+                <button class="btn btn-outline-danger" type="submit">
+                    <i class="bi bi-heart-fill"></i> Thích (@Model.Likes.Count)
+                </button>
+            </form>
+
+            <hr />
+
+            <!-- Comments Section -->
+            <div class="mt-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-chat-left-text"></i> Bình luận (@Model.Comments.Count)</h5>
+
+                <!-- Comment Form -->
+                <form asp-action="Comment" asp-controller="Home" method="post" class="mb-4">
+                    <input type="hidden" name="postId" value="@Model.Id" />
+                    <div class="input-group">
+                        <textarea name="content" class="form-control" rows="3" placeholder="Viết bình luận..."></textarea>
+                        <button class="btn btn-primary" type="submit">
+                            <i class="bi bi-send"></i> Gửi
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Comments List -->
+                @if (Model.Comments != null && Model.Comments.Any())
+                {
+                    <div class="list-group">
+                        @foreach (var c in Model.Comments.OrderByDescending(c => c.CreatedAt))
+                        {
+                            <div class="list-group-item border-0 py-3">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <img src="@(string.IsNullOrEmpty(c.Author.AvatarFileName) ? "/images/default-avatar.png" : $"/uploads/avatar/{c.Author.AvatarFileName}")"
+                                             class="rounded-circle me-3"
+                                             style="width:40px; height:40px; object-fit:cover;" />
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <div class="d-flex justify-content-between">
+                                            <strong>@c.AuthorName</strong>
+                                            <small class="text-muted">@c.CreatedAt.ToString("dd/MM/yyyy HH:mm")</small>
+                                        </div>
+                                        <div class="mt-1">@c.Content</div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <div class="text-center py-3 text-muted">
+                        <i class="bi bi-chat-square-text display-6"></i>
+                        <p class="mt-2">Chưa có bình luận nào</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

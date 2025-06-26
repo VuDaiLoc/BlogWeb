@@ -1,0 +1,14 @@
+﻿<div class="chat-popup" id="chat-popup-@ViewBag.ThreadId">
+    <div class="chat-header">
+        <span>@ViewBag.Partner.FullName</span>
+        <button onclick="closeChat(@ViewBag.ThreadId)">✖</button>
+    </div>
+    <div class="chat-body">
+        <!-- load tin nhắn ở đây -->
+        <div id="chat-messages-@ViewBag.ThreadId">Đang tải...</div>
+    </div>
+    <div class="chat-footer">
+        <input type="text" id="msg-@ViewBag.ThreadId" placeholder="Nhập tin nhắn...">
+        <button onclick="sendMessage(@ViewBag.ThreadId)">Gửi</button>
+    </div>
+</div>

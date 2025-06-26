@@ -1,0 +1,14 @@
+﻿@model BlogShare.Web.Models.Post
+@{
+    ViewData["Title"] = "Xoá bài viết";
+}
+
+<h2>Bạn có chắc muốn xoá bài viết này?</h2>
+
+<p><strong>@Model.Title</strong></p>
+<p>@Model.Content.Substring(0, Math.Min(Model.Content.Length, 100))...</p>
+
+<form method="post" asp-action="ConfirmDelete" asp-route-id="@Model.Id">
+    <button type="submit" class="btn btn-danger">Xoá</button>
+    <a href="@Url.Action("MyPosts", "Post")" class="btn btn-secondary">Huỷ</a>
+</form>

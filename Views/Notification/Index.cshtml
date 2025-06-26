@@ -1,0 +1,34 @@
+﻿@model List<BlogShare.Web.Models.Notification>
+@{
+    ViewData["Title"] = "Thông báo của tôi";
+}
+
+<h2>Thông báo của tôi</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nội dung</th>
+            <th>Ngày tạo</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var n in Model)
+        {
+            <tr class="@(n.IsRead ? "" : "fw-bold")">
+                <td>@n.Message</td>
+                <td>@n.CreatedAt.ToString("HH:mm dd/MM/yyyy")</td>
+                <td>@(n.IsRead ? "Đã đọc" : "Chưa đọc")</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(n.Link))
+                    {
+                    <td>
+                        <a asp-action="Details" asp-route-id="@n.Id" class="btn btn-sm btn-primary">Xem</a>
+                    </td>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

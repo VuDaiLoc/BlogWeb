@@ -1,0 +1,67 @@
+﻿@model List<BlogShare.Web.Models.Post>
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var session = HttpContextAccessor.HttpContext?.Session;
+    var userId = session?.GetString("UserId");
+    var userName = session?.GetString("UserName");
+}
+
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 class="mb-4">📰 Bài viết mới nhất</h3>
+            @foreach (var post in Model)
+            {
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5>@post.Title</h5>
+                        <p>@post.Content</p>
+
+                        @* Ảnh bài viết *@
+                        @if (!string.IsNullOrEmpty(post.ImagePath))
+                        {
+                            <img src="@post.ImagePath" class="img-fluid" alt="Ảnh bài viết" />
+                        }
+
+                        @* Ngày tạo *@
+                        <div class="text-muted">@post.CreatedAt.ToString("dd/MM/yyyy HH:mm")</div>
+
+                        @* Lượt thích & bình luận *@
+                        <div class="mt-2">
+                            ❤️ <strong>@(post.Likes?.Count() ?? 0)</strong> lượt thích
+                            💬 <strong>@(post.Comments?.Count() ?? 0)</strong> bình luận
+                        </div>
+
+                        <a class="btn btn-primary mt-2" asp-controller="Home" asp-action="Details" asp-route-id="@post.Id">Xem chi tiết</a>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @* <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">📌 Bộ lọc</div>
+                <div class="card-body">
+                    <p class="text-muted">(Chức năng lọc chuyên mục sẽ thêm sau)</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">🧑‍💻 Thông tin</div>
+                <div class="card-body">
+                    @if (!string.IsNullOrEmpty(userName))
+                    {
+                        <p>Xin chào <strong>@userName</strong>! Chúc bạn một ngày vui vẻ 😊</p>
+                    }
+                    else
+                    {
+                        <p>Chào mừng bạn đến với BlogShare. Hãy <a asp-controller="Account" asp-action="Login">đăng nhập</a> để chia sẻ bài viết thú vị!</p>
+                    }
+                </div>
+            </div>
+        </div> *@
+    </div>
+</div>

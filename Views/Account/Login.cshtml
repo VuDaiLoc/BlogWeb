@@ -1,0 +1,110 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var token = Guid.NewGuid().ToString();
+    Context.Session.SetString("QR_SESSION", token);
+    var qrUrl = $"http://172.16.17.181:5185/Account/QrCallback?token={token}";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Account/Login.css" />
+</head>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @ViewBag.Message
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-body p-5">
+                    <div class="text-center mb-4">
+                        <h2 class="fw-bold text-primary">👋 Chào mừng trở lại!</h2>
+                        <p class="text-muted">Vui lòng đăng nhập để tiếp tục</p>
+                    </div>
+
+                    <form method="post">
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">📧 Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light">
+                                    <i class="bi bi-envelope"></i>
+                                </span>
+                                <input name="email" type="email" class="form-control py-2" id="email" placeholder="Nhập email của bạn" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="password" class="form-label fw-bold">🔒 Mật khẩu</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light">
+                                    <i class="bi bi-lock"></i>
+                                </span>
+                                <input name="password" type="password" class="form-control py-2" id="password" placeholder="Nhập mật khẩu" required>
+                                <button class="btn btn-outline-secondary toggle-password" type="button">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="d-grid mb-3">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill py-2 fw-bold">
+                                <i class="bi bi-box-arrow-in-right me-2"></i>Đăng nhập
+                            </button>
+                        </div>
+
+                        <div class="text-center">
+                            <a href="#" class="text-decoration-none">Quên mật khẩu?</a>
+                            <p class="mt-3 text-muted">Chưa có tài khoản? <a asp-controller="Account" asp-action="Register" class="text-primary fw-bold">Đăng ký ngay</a></p>
+                        </div>
+                    </form>
+
+                    <hr class="my-4" />
+
+                    <!-- Đăng nhập bằng QR -->
+                    <div class="text-center">
+                        <h5 class="text-secondary fw-bold mb-3">📱 Đăng nhập bằng mã QR</h5>
+                        <img src="/qr?url=@qrUrl" width="200" alt="QR đăng nhập" class="rounded shadow-sm border border-2" />
+                        <p class="mt-2 text-muted">Quét bằng ứng dụng đã đăng nhập</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Hiển thị/ẩn mật khẩu
+    document.querySelectorAll('.toggle-password').forEach(button => {
+        button.addEventListener('click', function () {
+            const passwordInput = this.closest('.input-group').querySelector('input');
+            const icon = this.querySelector('i');
+
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                icon.classList.remove('bi-eye');
+                icon.classList.add('bi-eye-slash');
+            } else {
+                passwordInput.type = 'password';
+                icon.classList.remove('bi-eye-slash');
+                icon.classList.add('bi-eye');
+            }
+        });
+    });
+
+    // Kiểm tra trạng thái đăng nhập từ mã QR
+    setInterval(() => {
+        fetch('/Login/CheckStatus')
+            .then(res => res.json())
+            .then(data => {
+                if (data.loggedIn) {
+                    window.location.href = "/";
+                }
+            });
+    }, 2000);
+</script>

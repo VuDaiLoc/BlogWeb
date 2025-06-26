@@ -1,0 +1,1374 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250626012610_update2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250626012610_update2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\qrloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\qrloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\helper\\qrhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:helper\\qrhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\blogshare.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:blogshare.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\friend\\myfriends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\friend\\myfriends.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\post\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\post\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\post\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\post\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\controllers\\friendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:controllers\\friendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\migrations\\20250625154100_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:migrations\\20250625154100_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\friendrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\friendrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\friendship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\friendship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\chatthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\chatthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\models\\catetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:models\\catetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\notification\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\notification\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\css\\home\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\css\\home\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\css\\account\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\css\\account\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\friend\\incomingrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\friend\\incomingrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\chat\\_chatbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\chat\\_chatbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\account\\_usersearchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\account\\_usersearchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\css\\account\\_usersearchresults.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\css\\account\\_usersearchresults.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\css\\account\\setting.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\css\\account\\setting.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\account\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\account\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\css\\shared\\_layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\css\\shared\\_layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\css\\account\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\css\\account\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\css\\account\\changepassword.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\css\\account\\changepassword.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\css\\account\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\css\\account\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\shared\\_chatpopup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\shared\\_chatpopup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\shared\\_popupstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\shared\\_popupstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625033227_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250625033227_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625033059_update9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250625033059_update9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625032834_update8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250625032834_update8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625030904_update7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250625030904_update7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\shared\\_avatar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\shared\\_avatar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624073525_AddFriend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250624073525_AddFriend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624030924_Update3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250624030924_Update3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624030538_Update2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250624030538_Update2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624025212_Update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250624025212_Update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\wwwroot\\uploads\\b6963894-c40e-4c4f-9299-dae0f3ccf450.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:wwwroot\\uploads\\b6963894-c40e-4c4f-9299-dae0f3ccf450.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\post\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\post\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624014940_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250624014940_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624014610_Update12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250624014610_Update12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624014259_Update11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250624014259_Update11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624012843_Update10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250624012843_Update10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\post\\myposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\post\\myposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\migrations\\20250625154100_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:migrations\\20250625154100_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|c:\\users\\locvu\\source\\repos\\blogshare.web\\migrations\\20250626003337_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E2DFAD-5717-43D2-9DEE-06523CE2461A}|BlogShare.Web.csproj|solutionrelative:migrations\\20250626003337_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 122,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 89,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250626012610_update2.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250626012610_update2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250626012610_update2.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250626012610_update2.cs",
+              "RelativeToolTip": "Migrations\\20250626012610_update2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:26:10.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QrLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\QrLoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\QrLoginRequest.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\QrLoginRequest.cs",
+              "RelativeToolTip": "Models\\QrLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:23:59.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QrController.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\QrController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QrController.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\QrController.cs",
+              "RelativeToolTip": "Controllers\\QrController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:14:37.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QrHelper.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Helper\\QrHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\QrHelper.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Helper\\QrHelper.cs",
+              "RelativeToolTip": "Helper\\QrHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:14:08.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlogShare.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\BlogShare.Web.csproj",
+              "RelativeDocumentMoniker": "BlogShare.Web.csproj",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\BlogShare.Web.csproj",
+              "RelativeToolTip": "BlogShare.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T00:36:15.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20250626003337_update1.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250626003337_update1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250626003337_update1.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250626003337_update1.cs",
+              "RelativeToolTip": "Migrations\\20250626003337_update1.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T00:33:37.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:29:34.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250625154100_init.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625154100_init.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250625154100_init.Designer.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625154100_init.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250625154100_init.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T16:27:17.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "additional-methods.min.js",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmHAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-25T16:02:30.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20250625154100_init.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625154100_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250625154100_init.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625154100_init.cs",
+              "RelativeToolTip": "Migrations\\20250625154100_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:41:00.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Details.css",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Home\\Details.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Home\\Details.css",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Home\\Details.css",
+              "RelativeToolTip": "wwwroot\\css\\Home\\Details.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T15:23:12.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_UserSearchResults.css",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\_UserSearchResults.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Account\\_UserSearchResults.css",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\_UserSearchResults.css",
+              "RelativeToolTip": "wwwroot\\css\\Account\\_UserSearchResults.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T15:19:03.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Setting.css",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Setting.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Account\\Setting.css",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Setting.css",
+              "RelativeToolTip": "wwwroot\\css\\Account\\Setting.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T15:15:43.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Profile.css",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Profile.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Account\\Profile.css",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Profile.css",
+              "RelativeToolTip": "wwwroot\\css\\Account\\Profile.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T15:04:02.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ChangePassword.css",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\ChangePassword.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Account\\ChangePassword.css",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\ChangePassword.css",
+              "RelativeToolTip": "wwwroot\\css\\Account\\ChangePassword.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T14:57:22.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Register.css",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Register.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Account\\Register.css",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Register.css",
+              "RelativeToolTip": "wwwroot\\css\\Account\\Register.css",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T14:48:52.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Login.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Account\\Login.css",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Login.css",
+              "RelativeToolTip": "wwwroot\\css\\Account\\Login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T14:43:15.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_Layout.css",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Shared\\_Layout.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Shared\\_Layout.css",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Shared\\_Layout.css",
+              "RelativeToolTip": "wwwroot\\css\\Shared\\_Layout.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T14:21:00.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "chat.js",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\chat.js",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "wwwroot\\js\\chat.js",
+              "ViewState": "AgIAAFYBAAAAAAAAAAAUwGgBAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-25T09:42:20.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-25T04:31:05.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20250625033227_Init.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625033227_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250625033227_Init.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625033227_Init.cs",
+              "RelativeToolTip": "Migrations\\20250625033227_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:32:27.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20250625033059_update9.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625033059_update9.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250625033059_update9.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625033059_update9.cs",
+              "RelativeToolTip": "Migrations\\20250625033059_update9.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:30:59.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20250625032834_update8.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625032834_update8.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250625032834_update8.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625032834_update8.cs",
+              "RelativeToolTip": "Migrations\\20250625032834_update8.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:28:35.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAApwFsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:12:18.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20250625030904_update7.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625030904_update7.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250625030904_update7.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250625030904_update7.cs",
+              "RelativeToolTip": "Migrations\\20250625030904_update7.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:09:04.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ChatBox.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Chat\\_ChatBox.cshtml",
+              "RelativeDocumentMoniker": "Views\\Chat\\_ChatBox.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Chat\\_ChatBox.cshtml",
+              "RelativeToolTip": "Views\\Chat\\_ChatBox.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:41:06.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_UserSearchResults.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\_UserSearchResults.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\_UserSearchResults.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\_UserSearchResults.cshtml",
+              "RelativeToolTip": "Views\\Account\\_UserSearchResults.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:36:41.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "_ChatPopup.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_ChatPopup.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ChatPopup.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_ChatPopup.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ChatPopup.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:25:40.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "Models\\ChatMessage.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:56:51.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ChatThread.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\ChatThread.cs",
+              "RelativeDocumentMoniker": "Models\\ChatThread.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\ChatThread.cs",
+              "RelativeToolTip": "Models\\ChatThread.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:56:32.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAmwLwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:06:30.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IncomingRequests.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Friend\\IncomingRequests.cshtml",
+              "RelativeDocumentMoniker": "Views\\Friend\\IncomingRequests.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Friend\\IncomingRequests.cshtml",
+              "RelativeToolTip": "Views\\Friend\\IncomingRequests.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T17:56:51.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FriendController.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\FriendController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FriendController.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\FriendController.cs",
+              "RelativeToolTip": "Controllers\\FriendController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowG8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:34:50.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MyFriends.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Friend\\MyFriends.cshtml",
+              "RelativeDocumentMoniker": "Views\\Friend\\MyFriends.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Friend\\MyFriends.cshtml",
+              "RelativeToolTip": "Views\\Friend\\MyFriends.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T07:40:26.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:03:03.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Models\\Post.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Post.cs",
+              "RelativeToolTip": "Models\\Post.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA7wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:16:39.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T09:00:04.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:13:41.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAASwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T02:45:24.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FriendShip.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\FriendShip.cs",
+              "RelativeDocumentMoniker": "Models\\FriendShip.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\FriendShip.cs",
+              "RelativeToolTip": "Models\\FriendShip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:33:10.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:55:34.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:55:23.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FriendRequest.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\FriendRequest.cs",
+              "RelativeDocumentMoniker": "Models\\FriendRequest.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\FriendRequest.cs",
+              "RelativeToolTip": "Models\\FriendRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:32:45.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBcAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T01:25:30.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAkwHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:02:09.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "_PopupStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_PopupStatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_PopupStatus.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_PopupStatus.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_PopupStatus.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T04:24:56.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "_Avatar.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_Avatar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Avatar.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_Avatar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Avatar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T16:45:19.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "Views\\Chat\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T04:47:39.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Settings.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\Settings.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Settings.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\Settings.cshtml",
+              "RelativeToolTip": "Views\\Account\\Settings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T02:59:27.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20250624073525_AddFriend.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624073525_AddFriend.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250624073525_AddFriend.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624073525_AddFriend.cs",
+              "RelativeToolTip": "Migrations\\20250624073525_AddFriend.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:35:25.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:45:45.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAowN0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:17:38.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Controllers\\NotificationController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:41:30.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T09:07:08.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20250624030538_Update2.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624030538_Update2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250624030538_Update2.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624030538_Update2.cs",
+              "RelativeToolTip": "Migrations\\20250624030538_Update2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T03:05:38.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "20250624030924_Update3.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624030924_Update3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250624030924_Update3.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624030924_Update3.cs",
+              "RelativeToolTip": "Migrations\\20250624030924_Update3.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T03:09:25.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20250624025212_Update1.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624025212_Update1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250624025212_Update1.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624025212_Update1.cs",
+              "RelativeToolTip": "Migrations\\20250624025212_Update1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:52:12.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "Models\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:47:54.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T02:46:34.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "b6963894-c40e-4c4f-9299-dae0f3ccf450.jpg - Bitmap [200x200, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\b6963894-c40e-4c4f-9299-dae0f3ccf450.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\uploads\\b6963894-c40e-4c4f-9299-dae0f3ccf450.jpg",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\b6963894-c40e-4c4f-9299-dae0f3ccf450.jpg - Bitmap [200x200, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\uploads\\b6963894-c40e-4c4f-9299-dae0f3ccf450.jpg - Bitmap [200x200, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-24T02:16:25.481Z",
+              "EditorCaption": " - Bitmap [200x200, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\All.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\All.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\All.cshtml",
+              "RelativeToolTip": "Views\\Post\\All.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T15:57:57.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20250624014940_Init.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624014940_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250624014940_Init.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624014940_Init.cs",
+              "RelativeToolTip": "Migrations\\20250624014940_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:49:40.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20250624014610_Update12.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624014610_Update12.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250624014610_Update12.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624014610_Update12.cs",
+              "RelativeToolTip": "Migrations\\20250624014610_Update12.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:46:11.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Pending.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Pending.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\Pending.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Pending.cshtml",
+              "RelativeToolTip": "Views\\Post\\Pending.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T13:28:21.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T08:59:24.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20250624014259_Update11.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624014259_Update11.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250624014259_Update11.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624014259_Update11.cs",
+              "RelativeToolTip": "Migrations\\20250624014259_Update11.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:42:59.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Like.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Like.cs",
+              "RelativeDocumentMoniker": "Models\\Like.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Like.cs",
+              "RelativeToolTip": "Models\\Like.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:40:49.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Comment.cs",
+              "RelativeToolTip": "Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:25:47.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20250624012843_Update10.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624012843_Update10.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250624012843_Update10.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Migrations\\20250624012843_Update10.cs",
+              "RelativeToolTip": "Migrations\\20250624012843_Update10.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T01:28:43.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\Details.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Details.cshtml",
+              "RelativeToolTip": "Views\\Post\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T09:33:44.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Post\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T09:34:21.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\Create.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Create.cshtml",
+              "RelativeToolTip": "Views\\Post\\Create.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T09:18:11.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "MyPosts.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\MyPosts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\MyPosts.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\MyPosts.cshtml",
+              "RelativeToolTip": "Views\\Post\\MyPosts.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwCUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T09:18:28.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-23T13:43:05.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Home\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Welcome.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Home\\Welcome.cshtml",
+              "RelativeToolTip": "Views\\Home\\Welcome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T16:08:39.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T16:23:23.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Notification\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notification\\Index.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Notification\\Index.cshtml",
+              "RelativeToolTip": "Views\\Notification\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T15:19:02.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Notification\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notification\\Details.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Notification\\Details.cshtml",
+              "RelativeToolTip": "Views\\Notification\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T15:27:58.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA+wA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:39:28.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Post\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Post\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T09:34:06.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Catetory.cs",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Catetory.cs",
+              "RelativeDocumentMoniker": "Models\\Catetory.cs",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Models\\Catetory.cs",
+              "RelativeToolTip": "Models\\Catetory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:16:53.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T09:07:23.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T08:55:54.209Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

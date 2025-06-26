@@ -1,0 +1,19 @@
+﻿<style >
+.card {
+    border: none;
+    background-color: var(--bg-color);
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    border-radius: 8px !important;
+    transition: all 0.2s;
+}
+
+    .list-group-item:hover {
+        background-color: rgba(var(--primary-color-rgb), 0.1);
+        transform: translateX(5px);
+    }
+
+</style >

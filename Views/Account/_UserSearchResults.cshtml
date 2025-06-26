@@ -1,0 +1,26 @@
+﻿<head>
+    <link rel="stylesheet" href="~/css/Account/_UserSearchResults.css" />
+</head>
+
+
+@model List<BlogShare.Web.Models.User>
+
+<div class="list-group">
+    @foreach (var user in Model)
+    {
+        <a href="/Account/PublicProfile/@user.Id" class="list-group-item list-group-item-action d-flex align-items-center py-2">
+            <div class="position-relative me-3">
+                <img src="~/uploads/avatar/@user.AvatarFileName"
+                     class="rounded-circle border border-2 border-primary"
+                     style="width:40px; height:40px; object-fit:cover;"
+                     alt="@user.FullName" />
+            </div>
+            <div>
+                <h6 class="mb-0 fw-bold">@user.FullName</h6>
+                <small class="text-muted">@user.Email</small>
+            </div>
+            <i class="bi bi-chevron-right ms-auto text-muted"></i>
+        </a>
+    }
+</div>
+

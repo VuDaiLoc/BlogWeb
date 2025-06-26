@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+    var userName = Context.Session.GetString("UserName");
+}
+
+<h2>Trang chủ BlogShare</h2>
+
+@if (!string.IsNullOrEmpty(userName))
+{
+    <p>Xin chào <strong>@userName</strong>!</p>
+}
+else
+{
+    <p>Chào mừng bạn đến với BlogShare!</p>
+    <a href="/Account/Login" class="btn btn-primary">Đăng nhập</a>
+    <a href="/Account/Register" class="btn btn-secondary">Đăng ký</a>
+}

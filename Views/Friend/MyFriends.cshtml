@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Danh sách bạn bè";
+    var userIdNullable = Context.Session.GetInt32("UserId");
+    int currentUserId = userIdNullable ?? -1; // hoặc throw nếu cần bắt lỗi
+}
+
+<h2>📋 Danh sách bạn bè</h2>
+
+@if (Model != null && Model.Any())
+{
+    <ul class="list-group">
+        @foreach (var friendship in Model)
+        {
+            var friend = friendship.User1Id == currentUserId ? friendship.User2 : friendship.User1;
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>@friend.FullName (@friend.Email)</span>
+                <form asp-action="RemoveFriend" asp-controller="Friend" method="post" class="mb-0">
+                    <input type="hidden" name="userId" value="@friend.Id" />
+                    <button type="submit" class="btn btn-sm btn-danger">Huỷ kết bạn</button>
+                </form>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>Bạn chưa có bạn bè nào.</p>
+}

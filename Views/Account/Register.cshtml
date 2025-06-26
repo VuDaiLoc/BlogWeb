@@ -1,0 +1,107 @@
+﻿<head>
+    <link rel="stylesheet" href="~/css/Account/Register.css/" />
+</head>
+
+@model BlogShare.Web.Models.User
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-body p-5">
+                    <div class="text-center mb-4">
+                        <h2 class="fw-bold text-primary">🎉 Tạo tài khoản mới</h2>
+                        <p class="text-muted">Tham gia cộng đồng BlogShare ngay hôm nay!</p>
+                    </div>
+
+                    <form method="post">
+                        <!-- Hiển thị lỗi validation -->
+                        @if (ViewData.ModelState.ErrorCount > 0)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show">
+                                <ul class="mb-0">
+                                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                    {
+                                        <li>@error.ErrorMessage</li>
+                                    }
+                                </ul>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        }
+
+                        <div class="mb-3">
+                            <label asp-for="FullName" class="form-label fw-bold">👤 Họ và tên</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light">
+                                    <i class="bi bi-person"></i>
+                                </span>
+                                <input asp-for="FullName" class="form-control py-2" placeholder="Nhập họ tên đầy đủ">
+                            </div>
+                            <span asp-validation-for="FullName" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label fw-bold">📧 Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light">
+                                    <i class="bi bi-envelope"></i>
+                                </span>
+                                <input asp-for="Email" type="email" class="form-control py-2" placeholder="Nhập email của bạn">
+                            </div>
+                            <span asp-validation-for="Email" class="text-danger small"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="PasswordHash" class="form-label fw-bold">🔒 Mật khẩu</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light">
+                                    <i class="bi bi-lock"></i>
+                                </span>
+                                <input asp-for="PasswordHash" type="password" class="form-control py-2" placeholder="Tạo mật khẩu an toàn">
+                                <button class="btn btn-outline-secondary toggle-password" type="button">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
+                            <div class="form-text">Mật khẩu tối thiểu 6 ký tự</div>
+                            <span asp-validation-for="PasswordHash" class="text-danger small"></span>
+                        </div>
+
+                        <div class="d-grid mb-3">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill py-2 fw-bold">
+                                <i class="bi bi-person-plus me-2"></i>Đăng ký ngay
+                            </button>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="text-muted">Đã có tài khoản? <a asp-action="Login" class="text-primary fw-bold">Đăng nhập ngay</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        // Hiển thị/ẩn mật khẩu
+        document.querySelectorAll('.toggle-password').forEach(button => {
+            button.addEventListener('click', function() {
+                const passwordInput = this.closest('.input-group').querySelector('input');
+                const icon = this.querySelector('i');
+
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    icon.classList.remove('bi-eye');
+                    icon.classList.add('bi-eye-slash');
+                } else {
+                    passwordInput.type = 'password';
+                    icon.classList.remove('bi-eye-slash');
+                    icon.classList.add('bi-eye');
+                }
+            });
+        });
+    </script>
+}

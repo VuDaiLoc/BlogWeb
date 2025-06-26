@@ -1,0 +1,59 @@
+﻿<head>  
+    <link rel="stylesheet" href="~/css/Account/Setting.css" />
+</head>
+
+@{
+    ViewData["Title"] = "Cài đặt";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm rounded-4">
+                <div class="card-body">
+                    <h2 class="fw-bold mb-4">⚙️ Cài đặt tài khoản</h2>
+
+                    <div class="list-group">
+                        <a asp-action="ChangePassword" class="list-group-item list-group-item-action d-flex align-items-center py-3">
+                            <div class="bg-light rounded-circle p-2 me-3">
+                                <i class="bi bi-lock-fill text-primary fs-5"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Thay đổi mật khẩu</h5>
+                                <small class="text-muted">Cập nhật mật khẩu đăng nhập của bạn</small>
+                            </div>
+                            <i class="bi bi-chevron-right ms-auto text-muted"></i>
+                        </a>
+                    </div>
+
+                    <div class="mt-5">
+                        <h5 class="fw-bold mb-3 d-flex align-items-center">
+                            <div class="bg-light rounded-circle p-2 me-3">
+                                <i class="bi bi-palette-fill text-warning fs-5"></i>
+                            </div>
+                            Giao diện
+                        </h5>
+
+                        <div class="d-flex flex-wrap gap-3">
+                            <button class="btn btn-outline-secondary rounded-3 py-2 px-4" onclick="setTheme('light')">
+                                <i class="bi bi-sun-fill me-2"></i>Trắng
+                            </button>
+
+                            <button class="btn btn-dark rounded-3 py-2 px-4" onclick="setTheme('dark')">
+                                <i class="bi bi-moon-stars-fill me-2"></i>Tối
+                            </button>
+
+                            <button class="btn btn-info text-white rounded-3 py-2 px-4" onclick="setTheme('blue')">
+                                <i class="bi bi-droplet-fill me-2"></i>Xanh dương
+                            </button>
+
+                            <button class="btn btn-danger rounded-3 py-2 px-4" onclick="setTheme('pink')">
+                                <i class="bi bi-heart-fill me-2"></i>Hồng
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+﻿<style >
+.card {
+    border: none;
+    background-color: var(--bg-color);
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    transition: all 0.2s;
+}
+
+    .list-group-item:first-child {
+        border-top: none;
+    }
+
+    .list-group-item:hover {
+        background-color: rgba(var(--primary-color-rgb), 0.1);
+        transform: translateX(5px);
+    }
+
+#avatarPopup {
+    z-index: 1000;
+}
+
+.badge {
+    padding: 0.5em 0.75em;
+}
+
+</style >

@@ -1,0 +1,47 @@
+﻿@model BlogShare.Web.Models.Post
+@{
+    ViewData["Title"] = "Sửa bài viết";
+    var categories = ViewBag.Categories as List<BlogShare.Web.Models.Category>;
+}
+
+<h2>Sửa bài viết</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label>Tiêu đề</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Nội dung</label>
+        <textarea asp-for="Content" class="form-control" rows="8"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label>Chuyên mục</label>
+        <select asp-for="CategoryId" class="form-select">
+            <option value="">-- Chọn chuyên mục --</option>
+            @if (!string.IsNullOrEmpty(Model?.ImagePath))
+            {
+                <p>Ảnh hiện tại:</p>
+                <img src="@Model.ImagePath" style="max-height: 100px;" />
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Ảnh mới (nếu muốn đổi)</label>
+        <input type="file" name="imageFile" class="form-control" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ImagePath))
+    {
+        <p>Ảnh hiện tại:</p>
+        <img src="@Model.ImagePath" style="max-height: 100px;" />
+    }
+
+    <button type="submit" class="btn btn-warning">Lưu thay đổi</button>
+    <a href="@Url.Action("MyPosts", "Post")" class="btn btn-secondary">Huỷ</a>
+</form>

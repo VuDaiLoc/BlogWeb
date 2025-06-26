@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlogShare.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlogShare.Web.cpc7lghnug.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\ChangePassword.css",
+      "PackagePath": "staticwebassets\\css\\Account\\ChangePassword.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Account\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Profile.css",
+      "PackagePath": "staticwebassets\\css\\Account\\Profile.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Account\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\Setting.css",
+      "PackagePath": "staticwebassets\\css\\Account\\Setting.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Account\\_UserSearchResults.css",
+      "PackagePath": "staticwebassets\\css\\Account\\_UserSearchResults.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Home\\Details.css",
+      "PackagePath": "staticwebassets\\css\\Home\\Details.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\css\\Shared\\_Layout.css",
+      "PackagePath": "staticwebassets\\css\\Shared\\_Layout.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\image\\male.png",
+      "PackagePath": "staticwebassets\\image\\male.png"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\07f84114-8aa2-4bc0-873f-fa2d1a203e3b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\07f84114-8aa2-4bc0-873f-fa2d1a203e3b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\50b1dc6a-ed44-4f0d-ac2d-6cd2f6916757.jpg",
+      "PackagePath": "staticwebassets\\uploads\\50b1dc6a-ed44-4f0d-ac2d-6cd2f6916757.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\51681ca3-c52e-4697-bab2-47a42ccd9740.jpg",
+      "PackagePath": "staticwebassets\\uploads\\51681ca3-c52e-4697-bab2-47a42ccd9740.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\73190174-42e2-4553-a9bf-0991dd6589d7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\73190174-42e2-4553-a9bf-0991dd6589d7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\91bb6386-e053-46ea-b054-664913b9e36f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\91bb6386-e053-46ea-b054-664913b9e36f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\a2a0f4d8-b208-41e3-8741-6bf3cff02591.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a2a0f4d8-b208-41e3-8741-6bf3cff02591.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\0bc15f85-0033-492c-a124-99b3a3beddaf.png",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\0bc15f85-0033-492c-a124-99b3a3beddaf.png"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\1093c4a1-255e-49df-a6e6-1123a7091cff.png",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\1093c4a1-255e-49df-a6e6-1123a7091cff.png"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\390d1f03-4c8d-45bc-9662-d68536298fc1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\390d1f03-4c8d-45bc-9662-d68536298fc1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\58575c33-301b-42d2-9f19-3380ea6a9082.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\58575c33-301b-42d2-9f19-3380ea6a9082.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\6039ea54-d1c2-410f-b443-b1e4adda0f83.png",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\6039ea54-d1c2-410f-b443-b1e4adda0f83.png"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\8444588c-ba89-4c37-b439-ca27cfc2dd14.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\8444588c-ba89-4c37-b439-ca27cfc2dd14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\a20f7da8-4844-40b2-a257-ae585d5e9a17.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\a20f7da8-4844-40b2-a257-ae585d5e9a17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\d442ddd6-73e7-4d14-a5b3-8aa329594864.png",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\d442ddd6-73e7-4d14-a5b3-8aa329594864.png"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\d72cc911-cb20-43ca-b913-cbefef166ba1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\d72cc911-cb20-43ca-b913-cbefef166ba1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\e2302157-cbc8-4346-b85b-1b3e0ddc47f8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\e2302157-cbc8-4346-b85b-1b3e0ddc47f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\avatar\\f67aea0b-950a-4cea-834a-bbcf51289832.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar\\f67aea0b-950a-4cea-834a-bbcf51289832.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\b6963894-c40e-4c4f-9299-dae0f3ccf450.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b6963894-c40e-4c4f-9299-dae0f3ccf450.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\048461ff-0d28-40b2-86aa-3e7432b99f89.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\048461ff-0d28-40b2-86aa-3e7432b99f89.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\0d6051bb-5a1a-4a8e-b151-12cefc5075e1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\0d6051bb-5a1a-4a8e-b151-12cefc5075e1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\453c07f6-4d44-41ea-8192-1b99a1d4fe76.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\453c07f6-4d44-41ea-8192-1b99a1d4fe76.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\57ed26ae-94ef-4cfd-b588-e83fd497ce19.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\57ed26ae-94ef-4cfd-b588-e83fd497ce19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\5c8f1edd-7c17-44d4-b3c8-0b5acef7d4a7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\5c8f1edd-7c17-44d4-b3c8-0b5acef7d4a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\6d9925ab-e1aa-466b-b119-ee9a44e5bd99.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\6d9925ab-e1aa-466b-b119-ee9a44e5bd99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\73b7b24d-3ff5-4757-951a-30b3f6aaa835.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\73b7b24d-3ff5-4757-951a-30b3f6aaa835.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\beb125e5-2a1f-4e5d-b3be-da157e059dbe.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\beb125e5-2a1f-4e5d-b3be-da157e059dbe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\f614ae79-bad8-40a4-aa5f-2627cfac343e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\f614ae79-bad8-40a4-aa5f-2627cfac343e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\locvu\\source\\repos\\BlogShare.Web\\wwwroot\\uploads\\chat\\fd303fdb-e4e2-407a-a414-d36f87517dcb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\chat\\fd303fdb-e4e2-407a-a414-d36f87517dcb.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlogShare.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlogShare.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlogShare.Web.props",
+      "PackagePath": "build\\BlogShare.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlogShare.Web.props",
+      "PackagePath": "buildMultiTargeting\\BlogShare.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlogShare.Web.props",
+      "PackagePath": "buildTransitive\\BlogShare.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

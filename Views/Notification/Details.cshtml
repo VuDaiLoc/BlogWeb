@@ -1,0 +1,24 @@
+﻿@model BlogShare.Web.Models.Notification
+@{
+    ViewData["Title"] = "Chi tiết thông báo";
+}
+
+<h2>Chi tiết thông báo</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Nội dung:</h5>
+        <p class="card-text">@Model.Message</p>
+
+        <p class="text-muted">Tạo lúc: @Model.CreatedAt.ToString("HH:mm dd/MM/yyyy")</p>
+
+        @if (!string.IsNullOrEmpty(Model.Link))
+        {
+            <a href="@Model.Link" class="btn btn-primary">Đi tới nội dung liên quan</a>
+        }
+        else
+        {
+            <a href="javascript:history.back()" class="btn btn-secondary">Quay lại</a>
+        }
+    </div>
+</div>

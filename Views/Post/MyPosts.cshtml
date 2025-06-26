@@ -1,0 +1,57 @@
+﻿@model List<BlogShare.Web.Models.Post>
+@{
+    ViewData["Title"] = "Bài viết của tôi";
+}
+
+<h2>Bài viết của bạn</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Chuyên mục</th>
+            <th>Trạng thái</th>
+            <th>Ngày tạo</th>
+            <th>Ảnh</th>
+            <th>Thao tác</th> <!-- ✅ Cột mới -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>@post.Title</td>
+                <td>@post.Category?.Name</td>
+                <td>
+                    @if (post.IsApproved == true)
+                    {
+                        <span class="text-success">Đã duyệt</span>
+                    }
+                    else if (post.IsApproved == false)
+                    {
+                        <span class="text-danger">Bị từ chối</span>
+                    }
+                    else
+                    {
+                        <span class="text-warning">Chờ duyệt</span>
+                    }
+                </td>
+                <td>@post.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(post.ImagePath))
+                    {
+                        <img src="@post.ImagePath" style="max-height: 100px;" />
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-sm btn-info" href="@Url.Action("Details", "Post", new { id = post.Id })">Xem</a>
+                    <a class="btn btn-sm btn-warning" href="@Url.Action("Edit", "Post", new { id = post.Id })">Sửa</a>
+                    <form asp-action="ConfirmDelete" asp-controller="Post" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@post.Id" />
+                        <button type="submit" class="btn btn-sm btn-danger">Xoá</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
